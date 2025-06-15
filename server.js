@@ -1,6 +1,6 @@
-import jsonServer from 'json-server';
-import auth from 'json-server-auth';
-import cors from 'cors';
+const jsonServer = require('json-server');
+const auth = require('json-server-auth');
+const cors = require('cors');
 
 const app = jsonServer.create();
 const router = jsonServer.router('db.json');
